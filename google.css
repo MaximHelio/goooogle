@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+}
+.nav-list{
+  display: flex;
+  list-style: none;
+  justify-content: end;
+}
+li{
+  margin: 10px;
+}
+section{
+   justify-content: center;
+}
+.title-icon{
+  background-color: beige;
+}
