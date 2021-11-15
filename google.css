@@ -15,3 +15,32 @@ section{
 .title-icon{
   background-color: beige;
 }
+.profile-img{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.logo-img{
+  justify-content: center;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  margin: 10px;
+}
+.footer-nation{
+  margin-left: 49px;
+}
+.footer-list{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
