@@ -1,6 +1,10 @@
 *{
   margin: 0;
 }
+.wrap{
+  margin: 0 auto;
+  width: 600px;
+}
 .nav-list{
   display: flex;
   list-style: none;
@@ -24,6 +28,7 @@ section{
   justify-content: center;
 }
 .main{
+  margin: 140px 0 38px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,5 +47,12 @@ footer{
 .footer-list{
   display: flex;
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+input{
+  /* border: none; */
+  font-family: inherit;
+  width: 90%;
+  height: 100%;
+  /* outline: none; */
 }
